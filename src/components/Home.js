@@ -16,7 +16,7 @@ const Home = () => {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Accusamus, eius.
             </p>
-            <p className="text-xs">
+            <p className="description text-xs">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
               vitae officia quidem sequi, accusantium cum voluptatem minima
               aspernatur rem consequatur.
@@ -24,6 +24,24 @@ const Home = () => {
           </div>
         </div>
       </header>
+      <section>
+        <div className="blogs py-10">
+          <div className="blog flex justify-between items-center border border-indigo-100 p-2 rounded-lg w-96 h-26 ">
+            <img
+              src="https://www.reliablesoft.net/wp-content/uploads/2019/12/free-images-for-blogs.jpg"
+              alt=""
+              className="h-20 w-40 px rounded"
+            />
+            <div className="details flex flex-col gap-1 h-14 w-48 pl-2">
+              <h2 className="title text-lg font-medium">Demo Title</h2>
+              <p className="description overflow-hidden text-xs ">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="events"></div>
+      </section>
     </div>
   );
 };
